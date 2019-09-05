@@ -42,5 +42,3 @@ Soft Attention是参数化的（Parameterization），因此可导，可以被�
 ### 2.2 Global Attention 和 Local Attention
 
 Global Attention：传统的Attention model一样。所有的hidden state都被用于计算Context vector 的权重，即变长的对齐向量at，其长度等于encoder端输入句子的长度。
-
-
